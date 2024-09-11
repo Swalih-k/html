@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Daily schedule</title>
+    <style>
+        table,th,td{
+           border: 2px solid black;
+           border-collapse: collapse;
+           border-spacing: 6px;
+           height: 50%px;
+           width: 100%px;
+           background-color: yellow;
+           padding: 5px;
+           spacing:6px;
+           text-align: center;}
+        .off{background-color: red;}
+        caption{
+            caption-side: bottom;
+            font-weight: bold;
+        }
+        h1{
+            caption-side: top;
+            font-weight: bold;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <table>
+        <h1>Task and Day of the week</h1>
+        <caption> Daily Schedule</caption>
+    <tr>
+        <th rowspan="2">Task</th>
+        <th colspan="7">Day of the Week</th>
+    </tr>
+    <tr>
+        <td>Mon</td>
+        <td>Tue</td>
+        <td>Wed</td>
+        <td>Thu</td>
+        <td>Fri</td>
+        <td>Sat</td>
+        <td>Sun</td>
+    </tr>
+    <tr>
+        <td>College</td>
+        <td>Java</td>
+        <td>Web Design</td>
+        <td>C lang</td>
+        <td>Python</td>
+        <td>Pratical</td>
+        <td class="off" ; colspan="2" ; rowspan="2">OFF</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Work</td>
+        <td rowspan="6"
+        colspan="5" >Subject preparation and project work</td>
+    </tr>
+</table>
+            
+</body>
+</html>
